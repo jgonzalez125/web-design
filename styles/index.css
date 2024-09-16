@@ -4,9 +4,9 @@ body {
   font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
 }
 
-h1, h2 {
+h1 {
   background-color: black; 
-  color: #f4f4f4
+  color: #f4f4f4;
 }
 
 .topnav {
@@ -31,19 +31,4 @@ h1, h2 {
 .topnav a:active {
   background-color: white;
   color: black;
-}
-
-.video-container {
-  display: flex;
-  align-items: center;
-  justify-content: center;
-  background-color: #ddd;
-}
-
-.video-description {
-  padding: 20px;
-}
-
-iframe {
-  padding-top: 40px;
 }
